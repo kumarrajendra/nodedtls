@@ -1,0 +1,37 @@
+{
+  "name": "node_dtls",
+  "version": "0.0.1",
+  "description": "Datagram Transport Layer Security",
+  "main": "index.js",
+  "repository": "",
+  "keywords": [
+    "dtls"
+  ],
+  "author": {
+    "name": "Sayyad Gaffar",
+    "email": "sgaffar@kodiaknetworks.com"
+  },
+  "contributors": [
+    {
+      "name": "Ravi Ganesh",
+      "email": "gravi@kodiaknetworks.com"
+    },
+    {
+      "name": "Anand E P",
+      "email": "epanand@kodiaknetworks.com"
+    },
+    {
+      "name": "Rajendra Kumar",
+      "email": "krajendra@kodiaknetworks.com"
+    },
+    {
+      "name": "Gora Kundu",
+      "email": "gkundu@kodiaknetworks.com"
+    }
+  ],
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "scripts": {
+    "preinstall":"node-gyp configure build"
+  }
+}
